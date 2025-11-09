@@ -3,8 +3,7 @@
 <!-- ========================================== -->
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=28&duration=3500&pause=800&color=00FFFF&center=true&vCenter=true&width=800&lines=🛰️+Welcome+to+CRISSOFTER+2077;💾+The+Future+of+Code+Starts+Here;⚡+Front-End+Developer+%7C+Digital+Creator" alt="Crissofter Banner Animation" />
-</p>
+  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=28&duration=3500&pause=800&color=00FFFF&center=true&vCenter=true&width=800&lines=%F0%9F%9B%B8%EF%B8%8F+Welcome+to+CRISSOFTER+2077;%F0%9F%92%BE+The+Future+of+Code+Starts+Here;%E2%9A%A1+Front-End+Developer+%7C+Digital+Creator" alt="Crissofter Banner Animation" />
 
 <h1 align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=32&duration=2500&pause=800&color=00FFFF&center=true&vCenter=true&width=700&lines=%F0%9F%91%BE+Cristiano+Silva;%F0%9F%92%BB+Desenvolvedor+Front-End;%E2%9A%A1+Crissofter+2077" alt="Crissofter Typing Animation" />
