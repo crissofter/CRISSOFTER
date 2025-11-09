@@ -1,7 +1,7 @@
 <!-- CRISSOFTER 2077 - Perfil Cyberpunk Premium -->
 
 <h1 align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=32&duration=2500&pause=800&color=00FFFF&center=true&vCenter=true&width=700&lines=👾+Cristiano+Silva;🚀+Crissofter+2077;💻+Desenvolvedor+Front-End;🧠+Criador+de+Experi%C3%AAncias+Digitais" alt="Crissofter Typing Animation" />
+  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=32&duration=2500&pause=800&color=00FFFF&center=true&vCenter=true&width=700&lines=👾+Cristiano+Silva;💻+Desenvolvedor+Front-End;⚡+Crissofter+2077" alt="Crissofter Typing Animation" />
 </h1>
 
 <p align="center">
