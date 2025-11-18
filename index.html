@@ -51,6 +51,43 @@
   }
 </style>
 
+  <style>
+  /* Alto contraste (WCAG 2.1 AA) */
+  .high-contrast {
+    background-color: #000000 !important;
+    color: #ffff00 !important; /* Amarelo alto contraste */
+  }
+
+  .high-contrast a {
+    color: #00ffff !important; /* Ciano para links */
+    font-weight: bold;
+  }
+
+  .high-contrast header,
+  .high-contrast nav,
+  .high-contrast footer {
+    background-color: #000000 !important;
+    color: #ffff00 !important;
+  }
+
+  .toggle-contrast {
+    cursor: pointer;
+    padding: 10px 15px;
+    border: 2px solid #000;
+    background: #ffff00;
+    border-radius: 6px;
+    margin-left: 10px;
+    font-size: 14px;
+  }
+
+  .high-contrast .toggle-contrast {
+    background: #000;
+    color: #ffff00;
+    border-color: #ffff00;
+  }
+</style>
+
+
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Portal Digital Crissofter</title>
 </head>
@@ -65,6 +102,14 @@
   aria-pressed="false"
   onclick="toggleDarkMode()">
   🌙 Ativar Modo Escuro
+</button>
+
+<button 
+  class="toggle-contrast"
+  aria-label="Ativar ou desativar alto contraste"
+  aria-pressed="false"
+  onclick="toggleHighContrast()">
+  ⚡ Alto Contraste
 </button>
 
     <nav aria-label="Menu Principal" role="navigation">
@@ -112,6 +157,15 @@
       button.setAttribute("aria-pressed", true);
       button.textContent = "☀️ Desativar Modo Escuro";
     }
+  }
+</script>
+  <script>
+  function toggleHighContrast() {
+    const isHighContrast = document.body.classList.toggle("high-contrast");
+    const btn = document.querySelector(".toggle-contrast");
+
+    btn.setAttribute("aria-pressed", isHighContrast);
+    btn.textContent = isHighContrast ? "⚡ Desativar Alto Contraste" : "⚡ Alto Contraste";
   }
 </script>
 
