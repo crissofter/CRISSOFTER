@@ -2,6 +2,18 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8" />
+  <style>
+  /* Foco visível para navegação por teclado (WCAG 2.1 AA) */
+  :focus {
+    outline: 3px solid #005fcc;
+    outline-offset: 3px;
+  }
+
+  a:focus, button:focus {
+    background-color: #e6f0ff;
+  }
+</style>
+
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Portal Digital Crissofter</title>
 </head>
@@ -9,13 +21,14 @@
 <body>
   <header>
     <h1>Portal Digital Crissofter</h1>
-    <nav aria-label="Menu Principal">
-      <ul>
-        <li><a href="#">Início</a></li>
-        <li><a href="#">Serviços</a></li>
-        <li><a href="#">Contato</a></li>
-      </ul>
-    </nav>
+    <nav aria-label="Menu Principal" role="navigation">
+  <ul role="menubar">
+    <li role="none"><a role="menuitem" href="#">Início</a></li>
+    <li role="none"><a role="menuitem" href="#">Serviços</a></li>
+    <li role="none"><a role="menuitem" href="#">Contato</a></li>
+  </ul>
+</nav>
+
   </header>
 
   <main>
