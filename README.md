@@ -42,10 +42,13 @@
 
 ## 🧩 Estatísticas
 
+## 📊 Estatísticas
+
 <div align="center">
 
-![Crissofter GitHub Stats](https://github-readme-stats.vercel.app/api?username=crissofter&show_icons=true&theme=tokyonight&hide_border=true&bg_color=00000000)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=crissofter&layout=compact&theme=tokyonight&hide_border=true&bg_color=00000000)
+<img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api?username=crissofter&show_icons=true&theme=tokyonight&hide_border=true&bg_color=00000000"/>
+
+<img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=crissofter&layout=compact&theme=tokyonight&hide_border=true&bg_color=00000000"/>
 
 </div>
 
